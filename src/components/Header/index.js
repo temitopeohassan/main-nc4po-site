@@ -13,17 +13,15 @@ const Header = () => {
                 <div className="col-12">
                     <div className="navigation">
                         <div className="logo">
-                             
-                                <img src={Logo} alt='Northern Coalition For Peter Obi' />
-                            
+                            <a href="/"><img src={Logo} alt='Northern Coalition For Peter Obi' /></a>
                         </div>
                         <div className="main-navigation">
                             <nav>
                                 <ul className="main-menu">
-                                    <li className="menu-item menu-item-has-children"> <a href="index.html" className="text-light-black">Home</a></li>
-                                    <li className="menu-item"> <a href="#" className="text-light-black">About</a></li>
-                                    <li className="menu-item"> <a href="#" className="text-light-black">Candidates</a></li>
-                                    <li className="menu-item"> <a href="#" className="text-light-black">Give </a></li>
+                                    <li className="menu-item menu-item-has-children"> <a href="/" className="text-light-black">Home</a></li>
+                                    <li className="menu-item"> <a href="/about" className="text-light-black">About</a></li>
+                                    <li className="menu-item"> <a href="/candidates" className="text-light-black">Candidates</a></li>
+                                    <li className="menu-item"> <a href="/donate" className="text-light-black">Donate </a></li>
                                     <li className="menu-item menu-item-has-children"> <a href="#" className="text-light-black">Participate</a>
                                         <ul className="sub-menu">
                                             <li className="menu-item"> <a href="#">Volunteer</a>
@@ -35,12 +33,7 @@ const Header = () => {
                                         </ul>
                                     </li>
                                     <li className="menu-item"> <a href="#" className="text-light-black">Shop </a></li>
-                                    <li className="menu-item menu-item-has-children"> <a href="#" className="text-light-black">Contact</a>
-                                        <ul className="sub-menu">
-                                            <li className="menu-item"> <a href="#">Sign Up For News Letter</a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                    <li className="menu-item menu-item-has-children"> <a href="/contact" className="text-light-black">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
