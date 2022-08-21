@@ -17,8 +17,7 @@ const Participate = () => {
             <div className="breadcrumb-content">
                 <h2>Participate</h2>
                 <ul>
-                    <li><Link to="/">Home</Link>
-                    </li>
+                    <li><Link to="/">Home</Link></li>
                     <li className="active">Participate</li>
                 </ul>
             </div>

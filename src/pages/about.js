@@ -3,6 +3,7 @@ import  '../css/bootstrap.min.css';
 import  '../css/style.css';
 import  aboutimg from '../img/about1.jpg';
 import Subscribe from '../components/Subscribe';
+import { Link } from "react-router-dom";
 
 
 
@@ -23,8 +24,7 @@ const About = () => {
             <div className="breadcrumb-content">
                 <h2>About Us</h2>
                 <ul>
-                    <li><a href="/">Home</a>
-                    </li>
+                    <li><Link to="/">Home</Link></li>
                     <li className="active">About us</li>
                 </ul>
             </div>

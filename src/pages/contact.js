@@ -2,6 +2,7 @@ import React from 'react';
 import  '../css/bootstrap.min.css';
 import  '../css/style.css';
 import Subscribe from '../components/Subscribe';
+import { Link } from "react-router-dom";
 
 
 
@@ -21,8 +22,7 @@ const Contact = () => {
             <div className="breadcrumb-content">
                 <h2>Contact Us</h2>
                 <ul>
-                    <li><a href="/">Home</a>
-                    </li>
+                    <li><Link to="/">Home</Link></li>
                     <li className="active">Contact us</li>
                 </ul>
             </div>
