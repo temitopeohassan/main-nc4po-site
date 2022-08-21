@@ -11,7 +11,7 @@ import Cash from '../../img/cash.svg';
 
 
 
-const Participate = () => {
+const ParticipateSection = () => {
 
     return (
 
@@ -54,7 +54,7 @@ const Participate = () => {
                         </div>
                         <div className="service-text-box">
                             <p>Participate</p>
-                            <h6>As a Voter</h6>
+                            <h6>As a Voting Agent</h6>
                         </div>
                     </div>
                 </div>
@@ -81,4 +81,4 @@ const Participate = () => {
     };
 
 
-export default Participate;
+export default ParticipateSection;

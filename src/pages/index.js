@@ -1,27 +1,25 @@
-import React  from 'react';
-import TopHeader from '../components/TopHeader';
-import Header from '../components/Header';
+import React  from 'react'
 import Slider from '../components/Slider';
-import Participate from '../components/Participate';
+import ParticipateSection from '../components/ParticipateSection';
+import AboutSection from '../components/AboutSection';
+import CandidatesList from '../components/CandidatesList';
 import Countdown from '../components/Countdown';
 import Subscribe from '../components/Subscribe';
-import Footer from '../components/Footer';
-import Copyright from '../components/Copyright';
 
 
 const Home = () => {
+
     return (
 
         <>
-        <TopHeader />
-        <Header />
         <Slider />
-        <Participate />
+        <ParticipateSection />
+         <CandidatesList />
+         <AboutSection />
         <Countdown />
         <Subscribe />
-        <Footer />
-        <Copyright />
         </>
+    
 
      );
 

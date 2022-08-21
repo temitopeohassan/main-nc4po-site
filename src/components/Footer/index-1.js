@@ -19,12 +19,13 @@ const Footer = () => {
             <div className="row">
                 <div className="col-xl col-lg-4 col-md-4 col-sm-6">
                     <div className="footer-contact">
-                      
+                        <h6 className="text-custom-white">About Us</h6>
                         <div className="logo mb-xl-20">
-                            <Link to="/">
+                            <Link to="#">
                             <img src={Logo} alt='Northern Coalition For Peter Obi' />
                             </Link>
                         </div>
+                        <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                     </div>
                 </div>
                 <div className="col-xl col-lg-4 col-md-4 col-sm-6">
@@ -33,13 +34,13 @@ const Footer = () => {
                         <ul>
                             <li><Link to="/about" className="text-white fw-500">About Us</Link>
                             </li>
-                            <li><Link to="/#" className="text-white fw-500">Management Team</Link>
+                            <li><Link to="/#" className="text-white fw-500">BManagement Team</Link>
                             </li>
                             <li><Link to="/#" className="text-white fw-500">Support Groups</Link>
                             </li>
-                            <li><Link to="/donate" className="text-white fw-500">Donate</Link>
+                            <li><Link to="/#" className="text-white fw-500">Donate</Link>
                             </li>
-                            <li><Link to="/participate" className="text-white fw-500">Participate</Link>
+                            <li><Link to="/#" className="text-white fw-500">Participate</Link>
                             </li>
                         </ul>
                     </div>
@@ -48,7 +49,7 @@ const Footer = () => {
                     <div className="footer-links">
                         <h6 className="text-custom-white">Candidates</h6>
                         <ul>
-                            <li><Link to="/candidates" className="text-white fw-500">Candidates</Link>
+                            <li><Link to="/#" className="text-white fw-500">Candidates</Link>
                             </li>
                             <li><Link to="/#" className="text-white fw-500">State Governors</Link>
                             </li>
@@ -61,7 +62,23 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                
+                <div className="col-xl col-lg-4 col-md-4 col-sm-6">
+                    <div className="footer-links">
+                        <h6 className="text-custom-white">Get to Know Us</h6>
+                        <ul>
+                            <li><Link to="/about" className="text-white fw-500">About Us</Link>
+                            </li>
+                            <li><Link to="/#" className="text-white fw-500">Blog</Link>
+                            </li>
+                            <li><Link to="#" className="text-white fw-500">Socialize</Link>
+                            </li>
+                            <li><Link to="index.html" className="text-white fw-500">Ecom</Link>
+                            </li>
+                            <li><Link to="#" className="text-white fw-500">Perks</Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 <div className="col-xl col-lg-4 col-md-4 col-sm-6">
                     <div className="footer-links">
                         <h6 className="text-custom-white">Contact info</h6>

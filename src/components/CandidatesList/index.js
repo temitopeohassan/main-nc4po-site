@@ -1,10 +1,11 @@
 import React from 'react';
-import style from '../../css/style.css';
-import bootstrap from '../../css/bootstrap.min.css';
-import {swiperContainer} from '../../css/swiper.min.css';
+import '../../css/style.css';
+import '../../css/bootstrap.min.css';
+import '../../css/swiper.min.css';
 import Can1 from '../../img/categories/category1.png';
 import Can2 from '../../img/categories/category2.png';
 import Can3 from '../../img/categories/category3.png';
+import { Link } from "react-router-dom";
 
 
 
@@ -16,114 +17,111 @@ const CandidateList = () => {
 
     return (
 
-    <section className="browseCat"> 
-    <div className="bgThemePrimary">
-    <div className="sectionPadding">
-        <div className="containerFluid">
-        <div className="customContainer">
+  <>
+<section className="browse-cat bg-theme-primary section-padding">
+        <div className="container-fluid custom-container">
             <div className="row">
                 <div className="col-12">
-                    <div className="sectionHeaderLeft title">
-                        <h3 className="textLightBlack headerTitle">Our Candidates List </h3>
-                        <span className="fs16 align-self-center"><a href="#">See All</a></span>
+                    <div className="section-header-left title">
+                        <h3 className="text-light-black header-title">Our Candidates List </h3>
+                        <span className="fs-16 align-self-center"><Link to="#">See All</Link></span>
                     </div>
                 </div>
                 <div className="col-12">
-                    <div class="categorySlider swiperContainer">
-                        <div class="swiperWrapper">
-                            <div class="swiperSlide">
-                                <a href="#" className="categories">
+                    <div className="category-slider swiper-container">
+                        <div className="swiper-wrapper">
+                            <div className="swiper-slide">
+                                <Link to="#" className="categories">
                                     <div className="icon text-custom-white bg-light-green ">
-                                     <img src={Can1} alt='' />
+                                        <img src={Can1} alt='' />
                                     </div> <span className="text-light-black cat-name">YZ</span>
-                                </a>
+                                </Link>
                             </div>
-                            <div className="">
-                                <a href="#" className="categories">
+                            <div className="swiper-slide">
+                                <Link to="#" className="categories">
                                     <div className="icon text-custom-white bg-light-green ">
-                                         <img src={Can2} alt='' />
+                                        <img src={Can2} alt='' />
                                     </div> <span className="text-light-black cat-name">WX</span>
-                                </a>
+                                </Link>
                             </div>
-                            <div className="">
-                                <a href="#" className="categories">
+                            <div className="swiper-slide">
+                                <Link to="#" className="categories">
                                     <div className="icon text-custom-white bg-light-green ">
-                                     <img src={Can3} alt='' />
+                                        <img src={Can3} alt='' />
                                     </div> <span className="text-light-black cat-name">UV</span>
-                                </a>
+                                </Link>
                             </div>
-                            <div className="">
-                                <a href="#" className="categories">
+                            <div className="swiper-slide">
+                                <Link to="#" className="categories">
                                     <div className="icon text-custom-white bg-light-green ">
-                                     <img src={Can1} alt='' />
+                                        <img src={Can1} alt='' />
                                     </div> <span className="text-light-black cat-name">ST</span>
-                                </a>
+                                </Link>
                             </div>
-                            <div className="">
-                                <a href="#" className="categories">
+                            <div className="swiper-slide">
+                                <Link to="#" className="categories">
                                     <div className="icon text-custom-white bg-light-green ">
-                                     <img src={Can2} alt='' />
+                                        <img src={Can2} alt='' />
                                     </div> <span className="text-light-black cat-name">QR</span>
-                                </a>
+                                </Link>
                             </div>
-                            <div className="">
-                                <a href="#" className="categories">
+                            <div className="swiper-slide">
+                                <Link to="#" className="categories">
                                     <div className="icon text-custom-white bg-light-green ">
-                                     <img src={Can3} alt='' />
+                                        <img src={Can3} alt='' />
                                     </div> <span className="text-light-black cat-name">OP</span>
-                                </a>
+                                </Link>
                             </div>
-                            <div className="">
-                                <a href="#" className="categories">
+                            <div className="swiper-slide">
+                                <Link to="#" className="categories">
                                     <div className="icon text-custom-white bg-light-green ">
-                                     <img src={Can1} alt='' />
+                                        <img src={Can1} alt='' />
                                     </div> <span className="text-light-black cat-name">MN</span>
-                                </a>
+                                </Link>
                             </div>
-                            <div className="">
-                                <a href="#" className="categories">
+                            <div className="swiper-slide">
+                                <Link to="#" className="categories">
                                     <div className="icon text-custom-white bg-light-green ">
-                                     <img src={Can2} alt='' />
+                                        <img src={Can2} alt='' />
                                     </div> <span className="text-light-black cat-name">KL</span>
-                                </a>
+                                </Link>
                             </div>
-                            <div className="">
-                                <a href="#" className="categories">
+                            <div className="swiper-slide">
+                                <Link to="#" className="categories">
                                     <div className="icon text-custom-white bg-light-green ">
-                                     <img src={Can3} alt='' />
+                                        <img src={Can3} alt='' />
                                     </div> <span className="text-light-black cat-name">IJ</span>
-                                </a>
+                                </Link>
                             </div>
-                            <div className="">
-                                <a href="#" className="categories">
+                            <div className="swiper-slide">
+                                <Link to="#" className="categories">
                                     <div className="icon text-custom-white bg-light-green ">
-                                     <img src={Can1} alt='' />
+                                        <img src={Can1} alt='' />
                                     </div> <span className="text-light-black cat-name">GH</span>
-                                </a>
+                                </Link>
                             </div>
-                            <div className="">
-                                <a href="#" className="categories">
+                            <div className="swiper-slide">
+                                <Link to="#" className="categories">
                                     <div className="icon text-custom-white bg-light-green ">
-                                     <img src={Can2} alt='' />
+                                        <img src={Can2} alt='' />
                                     </div> <span className="text-light-black cat-name">EF</span>
-                                </a>
+                                </Link>
                             </div>
-                            <div className="">
-                                <a href="#" className="categories">
+                            <div className="swiper-slide">
+                                <Link to="#" className="categories">
                                     <div className="icon text-custom-white bg-light-green ">
-                                     <img src={Can3} alt='' />
+                                        <img src={Can3} alt='' />
                                     </div> <span className="text-light-black cat-name">CD</span>
-                                </a>
+                                </Link>
                             </div>
-                            <div className="">
-                                <a href="#" className="categories">
+                            <div className="swiper-slide">
+                                <Link to="#" className="categories">
                                     <div className="icon text-custom-white bg-light-green ">
-                                     <img src={Can1} alt='' />
+                                        <img src={Can1} alt='' />
                                     </div> <span className="text-light-black cat-name">AB</span>
-                                </a>
+                                </Link>
                             </div>
                         </div>
-
                         <div className="swiper-button-next"></div>
                         <div className="swiper-button-prev"></div>
                     </div>
@@ -131,10 +129,8 @@ const CandidateList = () => {
                 </div>
             </div>
         </div>
-        </div>
-        </div>
-        </div>
     </section>
+  </>
   
      
 );

@@ -1,36 +1,83 @@
 import React from 'react';
-import style from '../../css/style.css';
-import Banner1 from '../../img/banner/banner1.jpg';
+import  '../../css/bootstrap.min.css';
+import  '../../css/style.css';
+import  thisisimage from '../../img/gallery/thisisimage2.jpg';
 
-
-const Slider = () => {
+const AboutSection = () => {
 
     return (
 
-   <section className="p-relative singleBanner">
-                <img src={Banner1} className="fullWidth" alt='' />
-        <div className="transform-center">
-            <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-lg-8 align-self-center">
-                        <div className="right-side-content text-center">
-                            <h5 className="textWhite">Around the world.</h5>
-                            <h1 className="textWhite fw-600 fs-60">Help Us Make A Diffrence In This World</h1>
-                            <p className="textWhite fw-400">Gray eel-catfish longnose whiptail catfish smalleye squaretail queen danio unicorn fish
-                                shortnose greeneye fusilier fish silver carp nibbler sharksucker tench lookdown catfishf</p>
-                            <a href="#" className="btn-solid with-line btn-big mt-20"><span>Explore<i className="fas fa-caret-right"></i></span></a>
+  
+  <>
+  <section className="masonary-gallery-sec">
+        <div className="container-fluid no-padding">
+            <div className="row magnific-gallery">
+                <div className="col-lg-6">
+                    <div className="full-height masonary-box p-relative">
+                        <div className="masonary-text transform-center">
+                            <div className="masonary-text-wrapper">
+                                <div className="icon-box">
+                                     <img src={thisisimage} alt='' />
+                                </div>
+                                <div className="text-box">
+                                    <h3 className="text-custom-white">
+                                        Stay up-todate, Follow us on our Instagram & Twitter page for daily updates
+                                    </h3>
+                                    <a href="#" className="text-custom-white fs-14"><i className="fab fa-instagram mr-2"></i> @Political</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <div className="video-box full-height">
+                        <div className="video_wrapper video_wrapper_full js-videoWrapper">
+                            <video src="../../../../../https@www.youtube.com/watch@v=bu_zYkgu6GU" controls="controls" />                                                                                                      
+                            <div className="videoPoster js-videoPoster">
+                                <img src={thisisimage} alt='' />
+                                <div className="video-inner video-btn-wrapper"> <a href="JavaScript:Void(0);"><i className="pe-7s-play"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row pt-0">
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <div className="masonary-item p-relative">
+                           <a>
+                                <img src={thisisimage} alt='' />
+                            </a>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-8 col-sm-6">
+                        <div className="masonary-item p-relative">
+                            <a href="assets/img/gallery/thisisimage4.jpg" className="popup">
+                               <img src={thisisimage} alt='' />
+                            </a>
+                        </div>
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <div className="masonary-item p-relative">
+                            <a href="assets/img/gallery/thisisimage3.jpg" className="popup">
+                                <img src={thisisimage} alt='' />
+                            </a>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-8 col-sm-6">
+                        <div className="masonary-item p-relative">
+                            <a href="assets/img/gallery/thisisimage5.jpg" className="popup">
+                                <img src={thisisimage} alt='' />
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div className="overlay overlay-bg-dark-2"></div>
     </section>
-  
+  </>
      
 );
 
     };
 
 
-export default Slider;
+export default AboutSection;

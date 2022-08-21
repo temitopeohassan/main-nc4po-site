@@ -1,6 +1,7 @@
 import React from 'react';
 import  '../../css/bootstrap.min.css';
 import  '../../css/style.css';
+import { Link } from "react-router-dom";
 import Logo from '../../img/logo-1.png';
 
 
@@ -13,37 +14,36 @@ const Header = () => {
                 <div className="col-12">
                     <div className="navigation">
                         <div className="logo">
-                            <a href="/"><img src={Logo} alt='Northern Coalition For Peter Obi' /></a>
+                            <Link to="/"><img src={Logo} alt='Northern Coalition For Peter Obi' /></Link>
                         </div>
                         <div className="main-navigation">
                             <nav>
                                 <ul className="main-menu">
-                                    <li className="menu-item menu-item-has-children"> <a href="/" className="text-light-black">Home</a></li>
-                                    <li className="menu-item"> <a href="/about" className="text-light-black">About</a></li>
-                                    <li className="menu-item"> <a href="/candidates" className="text-light-black">Candidates</a></li>
-                                    <li className="menu-item"> <a href="/donate" className="text-light-black">Donate </a></li>
-                                    <li className="menu-item menu-item-has-children"> <a href="#" className="text-light-black">Participate</a>
+                                    <li className="menu-item menu-item-has-children"> <Link to="/" className="text-light-black">Home</Link></li>
+                                    <li className="menu-item"> <Link to="/about" className="text-light-black">About</Link></li>
+                                    <li className="menu-item"> <Link to="/candidates" className="text-light-black">Candidates</Link></li>
+                                    <li className="menu-item"> <Link to="/donate" className="text-light-black">Donate </Link></li>
+                                    <li className="menu-item menu-item-has-children"> <Link to="/participate" className="text-light-black">Participate</Link>
                                         <ul className="sub-menu">
-                                            <li className="menu-item"> <a href="#">Volunteer</a>
+                                            <li className="menu-item"> <Link to="/volunteer">Volunteer</Link>
                                             </li>
-                                            <li className="menu-item"> <a href="#">Voting Agent</a>
+                                            <li className="menu-item"> <Link to="/agent">Voting Agent</Link>
                                             </li>
-                                            <li className="menu-item"> <a href="#">House Center Host</a>
+                                            <li className="menu-item"> <Link to="/host">House Center Host</Link>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li className="menu-item"> <a href="#" className="text-light-black">Shop </a></li>
-                                    <li className="menu-item menu-item-has-children"> <a href="/contact" className="text-light-black">Contact</a></li>
+                                    <li className="menu-item menu-item-has-children"> <Link to="/contact" className="text-light-black">Contact</Link></li>
                                 </ul>
                             </nav>
                         </div>
                         <div className="right-side-navigation">
                             <ul>
                                 <li className="hamburger-menu">
-                                    <a href="#" className="menu-btn"> <span></span>
+                                    <Link to="#" className="menu-btn"> <span></span>
                                         <span></span>
                                         <span></span>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
