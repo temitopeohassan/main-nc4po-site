@@ -1,6 +1,7 @@
 import React from 'react';
 import  '../../css/bootstrap.min.css';
 import  '../../css/style.css';
+import { Link } from "react-router-dom";
 import Banner1 from '../../img/banner/banner1.jpg';
 
 
@@ -15,11 +16,9 @@ const Slider = () => {
                 <div className="row justify-content-center">
                     <div className="col-lg-8 align-self-center">
                         <div className="right-side-content text-center">
-                            <h5 className="text-white">Around the world.</h5>
-                            <h1 className="text-white fw-600 fs-60">Help Us Make A Diffrence In This World</h1>
-                            <p className="text-white fw-400">Gray eel-catfish longnose whiptail catfish smalleye squaretail queen danio unicorn fish
-                                shortnose greeneye fusilier fish silver carp nibbler sharksucker tench lookdown catfishf</p>
-                            <a href="#" className="btn-solid with-line btn-big mt-20"><span>Explore<i className="fas fa-caret-right"></i></span></a>
+                              <h1 className="text-white fw-600 fs-60">Northern Coalition For Peter Obi</h1>
+                            
+                            <Link to="/about" className="btn-solid with-line btn-big mt-20"><span>Read More<i className="fas fa-caret-right"></i></span></Link>
                         </div>
                     </div>
                 </div>
