@@ -1,5 +1,4 @@
 import React from 'react';
-import CandidatesList from '../components/CandidatesList';
 import Subscribe from '../components/Subscribe';
 import { Link } from "react-router-dom";
 
@@ -30,8 +29,6 @@ const Candidates = () => {
     </div>
  
 
-        
-        <CandidatesList />
         <Subscribe/>
        
         </>

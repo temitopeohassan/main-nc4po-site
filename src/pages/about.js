@@ -1,7 +1,6 @@
 import React from 'react';
 import  '../css/bootstrap.min.css';
 import  '../css/style.css';
-import  aboutimg from '../img/about1.jpg';
 import Subscribe from '../components/Subscribe';
 import { Link } from "react-router-dom";
 
@@ -31,157 +30,43 @@ const About = () => {
         </div>
     </div>
  
-    <section className="aboutus section-padding">
-            <div className="container-fluid custom-container">
-                <div className="row align-items-center justify-content-between">
-                    <div className="col-xl-9">
-                        <div className="history-title mb-lg-40">
-                            <h2 className="text-light-black">See what we do for the poor people and <span className="text-color-primary">the children</span></h2>
-                            <p className="text-light-white mb-xl-40 fw-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                <br />Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus
-                                vel facilisis.</p>
-                                <h4 className="text-light-black">How can we help the community?</h4>
-                            <div className="row justify-content-between">
-                                <div className="col-4">
-  
-                                    <div className="row full-height">
-                                        <div className="col-12 full-height">
-                                            <div className="img-box mb-sm-40">
-                                                <img src={aboutimg} className="image-fit" alt="img" />
-                                            </div>
-                                        </div>
-                                    </div>
+<section className="our-articles bg-light-theme section-padding ">
+
+<div class="main-box padding-50 full-width mb-md-40">
+<div class="post-wrapper mb-xl-20">
+
+
+<div className="row">
+                            <div className="col-12">
+                                <div className="blog-meta mb-xl-20">
+                                    <h5 className="blog-title text-light-black">Best Democratic Party in Brooklyn.</h5>
+                                   
+
+                                    <p className="text-light-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                                 </div>
-                                
-                                <div className="col-8">
-                                    <div className="about-box ">
-                                        <p className="text-light-white custom-lh mb-xl-20">
-                                            Lorem Ipsum. Proin gravida nibh vel velit amet auctor aliquet. Aenean sollicitudin, lorem quis bibendum nisi elit consequat ipsum, nec ipsu sagittis sebh id elit. Duis sed odio sit amet nibh vulputatrsus a sit amet mauris morbi ipsum.
-                                        </p>
-                                        <ul>
-                                            <li className="fs-14 text-light-white">
-                                                <i className="fas fa-check"></i>A Fair Tax System
-                                            </li>
-                                            <li className="fs-14 text-light-white">
-                                                <i className="fas fa-check"></i>Climate Change
-                                            </li>
-                                            <li className="fs-14 text-light-white">
-                                                <i className="fas fa-check"></i>Health Consultation
-                                            </li>
-                                            <li className="fs-14 text-light-white">
-                                                <i className="fas fa-check"></i>Gun Violence Prevention
-                                            </li>
-                                        </ul>
-                                        <p className="text-light-black fw-600 mb-1">J. D 2020</p>
-                                        <img src="../img/about1.png" className="mb-xl-20" alt="img" />
-                                    </div>
+                                <div className="blog-meta mb-xl-20">
+                                    <h6 className="blog-title text-light-black">Why do we choose it?</h6>
+                                    <p className="text-light-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                                </div>
+                                <div className="blog-meta mb-xl-20">
+                                    <h6 className="blog-title text-light-black">Where does it come from?</h6>
+                                    <p className="text-light-white mb-xl-20">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                                    <p className="text-light-white">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                </div>
+                                <div className="blog-meta mb-xl-20">
+                                    <h6 className="blog-title text-light-black">Where can I get that product?</h6>
+                                    <p className="text-light-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                                </div>
+                                <div className="blog-meta mb-xl-20">
+                                    <h6 className="blog-title text-light-black">Why do we order from there?</h6>
+                                    <p className="text-light-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
 
-    <section className="section-padding how-it-works bg-theme-primary">
-        <div className="container">
-            <div className="section-header-style-2">
-                <h6 className="text-light-green sub-title">Our Process</h6>
-                <h3 className="text-light-black header-title">How Does It Work</h3>
-            </div>
-            <div className="row">
-                <div className="col-lg-3 col-sm-6">
-                    <div className="how-it-works-box arrow-1">
-                        <div className="how-it-works-box-inner"> <span className="icon-box">
-                                <img src="../img/how1.png" alt="icon" />
-                                <span className="number-box">01</span>
-                            </span>
-                            <h6>Search</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-sm-6">
-                    <div className="how-it-works-box arrow-2">
-                        <div className="how-it-works-box-inner"> <span className="icon-box">
-                                <img src="../img/how2.png" alt="icon" />
-                                <span className="number-box">02</span>
-                            </span>
-                            <h6>Select</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-sm-6">
-                    <div className="how-it-works-box arrow-1">
-                        <div className="how-it-works-box-inner"> <span className="icon-box">
-                                <img src="../img/how3.png" alt="icon" />
-                                <span className="number-box">03</span>
-                            </span>
-                            <h6>Vote</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-sm-6">
-                    <div className="how-it-works-box">
-                        <div className="how-it-works-box-inner"> <span className="icon-box">
-                                <img src="../img/how4.png" alt="icon" />
-                                <span className="number-box">04</span>
-                            </span>
-                            <h6>Change</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-  
-    <section className="feedback-area-two section-padding bg-custom-primary">
-        <div className="container-fluid custom-container">
-            <div className="row">
-                <div className="col-12">
-                    <div className="section-header-left text-center">
-                        <h3 className="text-white header-title">What The Community Say</h3>
-                    </div>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col-md-12">
-                    <div className="feedback-slider p-relative swiper-container">
-                        <div className="swiper-wrapper">
-                            <div className="swiper-slide">
-                                <div className="feedback-item-two">
-                                    <img src="../img/testimonial/testimonial1.jpg" alt="Feedback" />
-                                    <p className="text-white fs-16">I like Political and as compared to other company it's polices and customers support is very good easy to reach., also many time they unable to delivered. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                                        viverra
-                                        maecenas accumsan lacus vel facilisist amet, sed do eiusm.</p>
-                                    <h5 className="text-white fw-600 no-margin">Janadhon doe</h5>
-                                    <span className="text-white fw-400">President</span>
-                                </div>
-                            </div>
-                            <div className="swiper-slide">
-                                <div className="feedback-item-two">
-                                    <img src="../img/testimonial/testimonial2.jpg" alt="Feedback" />
-                                    <p className="text-white fs-16">I like Political and as compared to other company it's polices and customers support is very good easy to reach., also many time they unable to delivered. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                                        viverra
-                                        maecenas accumsan lacus vel facilisist amet, sed do eiusm.</p>
-                                    <h5 className="text-white fw-600 no-margin">Anna Wright</h5>
-                                    <span className="text-white fw-400">Co-founder</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="swiper-button-next"></div>
-                        <div className="swiper-button-prev"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+</div>
+</div>
+</div>
+</section>
     
 <Subscribe/>
 

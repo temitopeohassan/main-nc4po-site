@@ -50,13 +50,13 @@ const Footer = () => {
                         <ul>
                             <li><Link to="/candidates" className="text-white fw-500">Candidates</Link>
                             </li>
-                            <li><Link to="/#" className="text-white fw-500">State Governors</Link>
+                            <li><Link to="/governors" className="text-white fw-500">State Governors</Link>
                             </li>
-                            <li><Link to="/#" className="text-white fw-500">Senatprs</Link>
+                            <li><Link to="/senators" className="text-white fw-500">Senators</Link>
                             </li>
-                            <li><Link to="/#" className="text-white fw-500">House Of Representatives</Link>
+                            <li><Link to="/representatives" className="text-white fw-500">House Of Representatives</Link>
                             </li>
-                            <li><Link to="/#" className="text-white fw-500">State House Of Assembly</Link>
+                            <li><Link to="/assembly" className="text-white fw-500">State House Of Assembly</Link>
                             </li>
                         </ul>
                     </div>

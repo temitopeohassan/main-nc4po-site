@@ -21,18 +21,22 @@ const Header = () => {
                                 <ul className="main-menu">
                                     <li className="menu-item menu-item-has-children"> <Link to="/" className="text-light-black">Home</Link></li>
                                     <li className="menu-item"> <Link to="/about" className="text-light-black">About</Link></li>
-                                    <li className="menu-item"> <Link to="/candidates" className="text-light-black">Candidates</Link></li>
-                                    <li className="menu-item"> <Link to="/donate" className="text-light-black">Donate </Link></li>
-                                    <li className="menu-item menu-item-has-children"> <Link to="/participate" className="text-light-black">Participate</Link>
-                                        <ul className="sub-menu">
-                                            <li className="menu-item"> <Link to="/volunteer">Volunteer</Link>
+                                    <li className="menu-item menu-item-has-children"> <Link to="/candidates" className="text-light-black">Candidates</Link>
+                                                                            <ul className="sub-menu">
+                                            <li className="menu-item"> <Link to="/governors">State Governors</Link>
                                             </li>
-                                            <li className="menu-item"> <Link to="/agent">Voting Agent</Link>
+                                            <li className="menu-item"> <Link to="/senators">Senators</Link>
                                             </li>
-                                            <li className="menu-item"> <Link to="/host">House Center Host</Link>
+                                            <li className="menu-item"> <Link to="/representatives">House Of Representatives</Link>
+                                            </li>
+                                            <li className="menu-item"> <Link to="/assembly">State House Of Assembly</Link>
                                             </li>
                                         </ul>
+                                   
+                                   
                                     </li>
+                                    <li className="menu-item"> <Link to="/donate" className="text-light-black">Donate </Link></li>
+                                    <li className="menu-item menu-item-has-children"> <Link to="/participate" className="text-light-black">Participate</Link></li>
                                     <li className="menu-item menu-item-has-children"> <Link to="/contact" className="text-light-black">Contact</Link></li>
                                 </ul>
                             </nav>

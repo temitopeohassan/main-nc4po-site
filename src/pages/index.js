@@ -1,9 +1,8 @@
 import React  from 'react'
-import Slider from '../components/Slider';
-import ParticipateSection from '../components/ParticipateSection';
-import AboutSection from '../components/AboutSection';
-import CandidatesList from '../components/CandidatesList';
-import Countdown from '../components/Countdown';
+import Slider from '../components/HomePage/Slider';
+import ParticipateSection from '../components/HomePage/ParticipateSection';
+import AboutSection from '../components/HomePage/AboutSection';
+import Countdown from '../components/HomePage/Countdown';
 import Subscribe from '../components/Subscribe';
 
 
@@ -14,9 +13,12 @@ const Home = () => {
         <>
         <Slider />
         <ParticipateSection />
-         <CandidatesList />
+  <div className="main-sec"></div>
+        <h1>About Us</h1>
          <AboutSection />
+           <div className="main-sec"></div>
         <Countdown />
+          <div className="main-sec"></div>
         <Subscribe />
         </>
     
