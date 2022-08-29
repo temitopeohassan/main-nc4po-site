@@ -7,19 +7,17 @@ import { Link } from "react-router-dom";
 import Banner1 from '../../../img/banner/banner1.jpg';
 import Banner2 from '../../../img/banner/banner2.jpg';
 import Banner3 from '../../../img/banner/banner3.jpg';
+import { SliderContainer } from './SliderElements';
+
+
 
 function Slider() {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
-
-
+ 
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
- 
+   <>
+   <SliderContainer>
+   <Carousel fade>
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -60,8 +58,9 @@ function Slider() {
           <Link to="/donate" className="btn-solid with-line btn-big mt-20"><span>Read More<i className="fas fa-caret-right"></i></span></Link>
         </Carousel.Caption>
       </Carousel.Item>
-
-    </Carousel>
+  </Carousel>
+  </SliderContainer>
+   </>
   );
 }
 
